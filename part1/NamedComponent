@@ -1,0 +1,8 @@
+// Creating a component as NamedComponent that renders a p 
+// that should accept a property of “name” and display text “My name is name”.
+
+const NamedComponent = (props) =>{ // props is an object
+    return (
+        <p> My name is {props.name} </p> // props.name is a string
+    );
+}
